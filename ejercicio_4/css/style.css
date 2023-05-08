@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #7fc8ff;
+}
+.nav {
+   height: 50px; 
+   background-color: #006affd2;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+}
+/*  */
+li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+.h3_index {
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color:#000000;
+}
+p {
+    padding-top: 7px;
+    text-align: justify;
+}
+.parrafo1, .parrafo2, .parrafo3 {
+    padding: 5px 10px;
+}
+.h3_index2, .h3_index3, .h4_index, label {
+    padding: 7px 10px;
+    }
+.form {
+    padding: 9px 10px;
+}
+
+/*! Definiendo días y horarios de atención */
+.horario_table {
+    font-size: 40px;
+    text-align: center;
+    
+}
+.dia {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 15px;
+    color: #a11717;
+}
+.horario {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px;
+    color:#0b0bf4eb
+}
+.table {
+    display: flex;
+    flex-direction: column;    
+    color: #100f01a7;
+}
+.dias_table {
+    display: flex;
+    align-items: center;
+}
+
+/* Footer */
+.footer_gral{
+    background-color: #4f13e7fc;    
+}
+.h4_footer{
+    color: #000000f6; 
+    text-align: center;
+}
